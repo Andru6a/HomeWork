@@ -1,0 +1,26 @@
+.text-bold {
+    color: rgb(255, 0, 0);
+}
+.parent>.child {
+    color: blueviolet;
+}
+
+a[href="#blog"]{
+    color: rgb(0, 255, 0);
+}
+
+
+
+/* div
+.parent
+id
+.block1, .block2, .block3 {
+
+}
+div.blue-block {
+
+}
+div .blue-block {
+
+}
+.parent-1>.child-1 */
