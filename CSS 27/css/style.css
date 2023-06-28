@@ -1,0 +1,40 @@
+body {
+    background-color: #333;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #d3d3d3;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 500;
+    /* color: rgb(0, 136, 255); */
+    position: absolute;
+}
+
+.text {
+    /* animation: text-anim 3s  1s infinite alternate; */
+    animation-name: text-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes text-anim {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    100% {
+        color: black;
+    }
+}

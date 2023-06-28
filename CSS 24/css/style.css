@@ -1,0 +1,26 @@
+.block {
+    /* margin: 20px 20px; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.image {
+    margin: 0 0;
+    width: auto;
+    height: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+/* .block {
+    position: relative;
+} */
+.image {
+    position: fixed;
+    top: auto;
+    right: 50px;
+    left: 50%;
+    bottom: 100px;
+}
