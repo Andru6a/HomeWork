@@ -1,0 +1,44 @@
+body {
+    background-color: #636363;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 20%;
+    left: -15px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20%;
+    right: -15px;
+}
+
