@@ -1,5 +1,0 @@
-$(function () {
-  Fancybox.bind()
-
-
-});
