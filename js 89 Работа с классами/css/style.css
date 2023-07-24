@@ -1,0 +1,16 @@
+body {
+    height: 2000px;
+}
+.all {
+    display: inline-block;
+}
+.text {
+    display: inline-block;
+    transition: all .3s;
+}
+.recolor {
+    color: red;
+}
+.move {
+    margin-left: 20px;
+}

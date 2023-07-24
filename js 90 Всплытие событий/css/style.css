@@ -1,0 +1,28 @@
+body {
+    /* height: 2000px; */
+}
+.all {
+    display: inline-block;
+}
+.text {
+    display: inline-block;
+    transition: all .3s;
+}
+.recolor {
+    color: red;
+}
+.move {
+    margin-left: 20px;
+}
+.btns {
+    padding-bottom: 500px;
+
+}
+.btn {
+    background-color: #1505fd;
+    color: white;
+}
+
+.red {
+    color: #ff0000;
+}
